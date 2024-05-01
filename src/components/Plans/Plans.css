@@ -1,0 +1,119 @@
+.plans-container{
+    margin-top: -3rem;   
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .plans{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      margin-top: 3rem;
+  }
+  
+  .plan{
+      display: flex;
+      flex-direction: column;
+      background-color: var(--caloryCard);
+      color: #f1f1ff;
+      padding: 2rem;
+      width: 15rem;
+      height: auto;
+      gap: 2rem;
+      
+  }
+  .plan .planPrice{
+      margin: 0;
+  }
+  
+  .plan:nth-child(2)
+  {
+      background: var(--planCard); 
+      transform: scale(1.1);
+      color: #f1f1ff;
+  }
+  .plan>svg{
+      fill:var(--orange); 
+      width: 2rem;
+      height: 2rem;
+  }
+  .plan>:nth-child(2)
+  {
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  
+  .plan>:nth-child(3)
+  {
+      font-size: 3rem;
+      font-weight: bold;
+  }
+  .plan>:nth-child(5)
+  {
+      font-size: 0.8rem;
+  }
+  .features{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  }
+  
+  .feature{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  }
+  
+  .feature>img{
+      width: 1rem;
+  }
+  .plans>:nth-child(2)>svg{
+      fill: #f1f1ff;
+  }
+  .plans>:nth-child(2)>button{
+      color: rgb(42, 38, 38);
+  }
+  .plans>:nth-child(n)>button:hover{
+   background-color:rgb(42, 38, 38);
+   color: #f1f1ff;
+  }
+  .plans>:nth-child(2)>button:active{
+  color: var(--orange);
+  }
+  .plans>:nth-child(2)>span{
+    color: rgb(229, 217, 44);
+    font-weight: bolder;
+    background-color: #f1f1ff;
+    padding: 4px;
+    border-radius: 0.5rem;
+  }
+  
+  .plans-blur-1{
+      width: 32rem;
+      height: 23rem;
+      top: 6rem;
+      left: 0rem;
+  }
+  .plans-blur-2{
+      width: 32rem;
+      height: 23rem;
+      top: 10rem;
+      right: 0rem;
+  }
+  
+  
+  /* media query  */
+  
+  @media screen and (max-width:768px)
+  {
+      .plans{
+          flex-direction: column;
+      }
+      .plans>:nth-child(2)
+      {
+          transform: none;
+      }
+  }
