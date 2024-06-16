@@ -10,7 +10,7 @@
    - [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue)](https://www.linkedin.com/in/rishavkumar16/)
 
 #### Here is the link of the website
--[Click Here](https://paradise-fitness-gym.netlify.app/)
+-[Click Here](https://paradise-fitness-master.vercel.app/)
 
 - ![](https://img.shields.io/badge/HTML--CSS-JavaScript-lightgrey)
 
